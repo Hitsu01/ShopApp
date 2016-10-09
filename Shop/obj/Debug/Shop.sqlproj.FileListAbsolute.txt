@@ -1,0 +1,9 @@
+c:\users\hitsu\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.dacpac
+c:\users\hitsu\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.dll
+c:\users\hitsu\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.pdb
+c:\users\hitsu\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.dll
+c:\users\hitsu\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.pdb
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Model.xml
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\refactor.xml
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\postdeploy.sql
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\predeploy.sql

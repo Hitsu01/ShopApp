@@ -1,0 +1,6 @@
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\AppShopV2\bin\Debug\AppShopV2.exe.config
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\AppShopV2\bin\Debug\AppShopV2.exe
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\AppShopV2\bin\Debug\AppShopV2.pdb
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\AppShopV2\obj\Debug\AppShopV2.csprojResolveAssemblyReference.cache
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\AppShopV2\obj\Debug\AppShopV2.exe
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\AppShopV2\obj\Debug\AppShopV2.pdb

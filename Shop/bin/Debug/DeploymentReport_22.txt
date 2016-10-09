@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Items].[ShopId] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[Shops_FK] (Foreign Key)
+     Alter
+       [dbo].[Items] (Table)
+     Create
+       [dbo].[ShopDetails] (Table)
+       [dbo].[Supplys] (Table)
+       [dbo].[Types] (Table)
+       [dbo].[ShopDetails_Shops_FK] (Foreign Key)
+       [dbo].[ShopDetails_Types_FK] (Foreign Key)
+       [dbo].[Supplys_Items_FK] (Foreign Key)
+       [dbo].[Items_Types_FK] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[Items].[ShopId] is being dropped, data loss could occur.
+

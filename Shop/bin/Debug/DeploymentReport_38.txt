@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[sp_Delete_Shop_ById] (Procedure)
+       [dbo].[sp_Delete_ShopDetails_ById] (Procedure)
+       [dbo].[sp_Delete_Supply_ById] (Procedure)
+       [dbo].[sp_Delete_TypeItem_ById] (Procedure)
+       [dbo].[sp_Detele_Item_ById] (Procedure)
+       [dbo].[sp_Update_Customer] (Procedure)
+
+** Supporting actions

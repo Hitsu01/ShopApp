@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[sp_Get_Customer_ById] (Procedure)
+       [dbo].[sp_Get_Item_All] (Procedure)
+       [dbo].[sp_Get_Item_ById] (Procedure)
+       [dbo].[sp_Get_Shop_All] (Procedure)
+       [dbo].[sp_Get_Shop_ById] (Procedure)
+       [dbo].[sp_Get_ShopDetails_All] (Procedure)
+       [dbo].[sp_Get_ShopDetails_ById] (Procedure)
+       [dbo].[sp_Get_Suplly_ById] (Procedure)
+       [dbo].[sp_Get_Supply_All] (Procedure)
+       [dbo].[sp_Get_TypeItem_All] (Procedure)
+       [dbo].[sp_Get_TypeItem_ById] (Procedure)
+
+** Supporting actions

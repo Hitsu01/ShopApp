@@ -1,0 +1,6 @@
+﻿SELECT * FROM [Shop].[dbo].[Items]
+SELECT * FROM [Shop].[dbo].[Customers]
+SELECT * FROM [Shop].[dbo].[ShopDetails]
+SELECT * FROM [Shop].[dbo].[Shops]
+SELECT * FROM [Shop].[dbo].[Supplys]
+SELECT * FROM [Shop].[dbo].[Types]

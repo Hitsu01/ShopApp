@@ -1,0 +1,6 @@
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\ShopApp\bin\Debug\ShopApp.exe.config
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\ShopApp\bin\Debug\ShopApp.exe
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\ShopApp\bin\Debug\ShopApp.pdb
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\ShopApp\obj\Debug\ShopApp.csprojResolveAssemblyReference.cache
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\ShopApp\obj\Debug\ShopApp.exe
+C:\Users\Hitsu\documents\visual studio 2015\Projects\Shop\ShopApp\obj\Debug\ShopApp.pdb
