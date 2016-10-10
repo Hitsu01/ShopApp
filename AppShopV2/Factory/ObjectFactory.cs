@@ -55,6 +55,8 @@ namespace AppShopV2.Factory
                 mInfo = repository.GetType().GetMethod("Create").MakeGenericMethod(new Type[] { x.GetType() });
                 mInfo.Invoke(this, new object[] { x });
             }
+
+            list.Clear();
         }
     }
 }
