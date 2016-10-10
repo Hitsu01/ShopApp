@@ -10,7 +10,7 @@ namespace AppShopV2.Repository
     {
         List<T> GetAll<T>() where T : class ,new();
         T GetById<T>(int Id) where T : class, new();
-        bool Create<T>(T Item) where T :class;
+        bool  Create<T>(T Item) where T :class;
         bool DeleteBuId<T>(int Id);
         bool DeleteItem<T>(T Item);
         bool Update<T>(T Item);

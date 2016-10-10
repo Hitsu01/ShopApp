@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace AppShopV2.Repository
 {
-    class MyRepository : IRepository
+    class MyRepository //: IRepository
     {
 
-        SqlConnection connection;
-        string connectionString;
-        private  Dictionary<Type, DbType> TypeOfData;
+        static SqlConnection connection;
+        static string connectionString;
+        static private  Dictionary<Type, DbType> TypeOfData;
 
         public MyRepository()
         {
@@ -84,7 +84,7 @@ namespace AppShopV2.Repository
             return result;
         }
 
-        public bool Create<T>(T Item) where T : class
+        public static  bool Create<T>(T Item) where T : class
         {
             Type type = typeof(T);
             string SQL = "sp_Create_" + type.Name;
@@ -168,14 +168,14 @@ namespace AppShopV2.Repository
 
         }
 
-        private SqlCommand SqlQuery(string SQL)
+        static private SqlCommand SqlQuery(string SQL)
         {
             SqlCommand command = new SqlCommand(SQL, connection);
             command.CommandType = System.Data.CommandType.StoredProcedure;
             return command;
         }
 
-        private T MapModel<T>(SqlDataReader read) where T:class, new()
+        static private T MapModel<T>(SqlDataReader read) where T:class, new()
         {
             Type type = typeof(T);
             T result = new T();
@@ -189,7 +189,7 @@ namespace AppShopV2.Repository
             return result;
         }
 
-        private SqlParameter[] GetParameters<T>(T param)
+        static private SqlParameter[] GetParameters<T>(T param)
         {
             if (param == null)
                 return null;

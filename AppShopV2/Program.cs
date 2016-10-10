@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AppShopV2.Models;
+using AppShopV2.Factory;
 
 namespace AppShopV2
 {
@@ -17,22 +18,27 @@ namespace AppShopV2
 
 
 
-            MyRepository ob = new MyRepository();
-           
-            List<Customer> list;
-            //TypeItem ob2 = new TypeItem() { Id = 1001, Name = "TestUpdate"};
+            ObjectFactory f = new ObjectFactory();
 
-            
-            //Console.WriteLine(ob.Update<Customer>(ob2));
-            list = ob.GetAll<Customer>();
-            
-            
-            foreach(var x in list)
+            f.CreateCustomer("Hitsu", "888");
+            f.CreateTypeItem("testType");
+            f.SaveChange();
+
+
+            MyRepository rep = new MyRepository();
+            List<Customer> list = rep.GetAll<Customer>();
+
+            foreach (var x in list)
             {
-                Console.WriteLine("Id = {0}, Name = {1}, phone = ", x.Id, x.Name, x.Phone);
+                Console.WriteLine("Id = {2}, Name  = {0}, Phone = {1}", x.Name, x.Phone, x.Id);
             }
-           
-            
+
+            List<TypeItem> list2 = rep.GetAll<TypeItem>();
+
+            foreach (var x in list2)
+            {
+                Console.WriteLine("Name  = {0}", x.Name);
+            }
             Console.ReadLine();
         }
     }

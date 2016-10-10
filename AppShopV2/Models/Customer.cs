@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace AppShopV2.Models
 {
-    class Customer
+    class Customer : BaseModel
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
+
+        public Customer() { }
+        public Customer(string name, string phone)
+        {
+            this.Name = name;
+            this.Phone = phone;
+        }
     }
 }

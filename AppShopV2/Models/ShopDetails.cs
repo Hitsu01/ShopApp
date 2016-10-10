@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace AppShopV2.Models
 {
-    class ShopDetails
+    class ShopDetails : BaseModel
     {
-        public int Id { get; set; }
         public int Quantity { get; set; }
         public int ShopId { get; set; }
         public int TypeId { get; set; }
+
+        public ShopDetails() { }
+
+        public ShopDetails(int quantity, int shopId, int typeId)
+        {
+            this.Quantity = quantity;
+            this.ShopId = shopId;
+            this.TypeId = typeId;
+        }
     }
 }
